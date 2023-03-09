@@ -7,6 +7,7 @@ export function FeedbackOptions({ options, onLeaveFeedback }) {
   </Box>);
 };
 
+
 FeedbackOptions.ropTypes = {
   options: arrayOf(PropTypes.string.isRequired,).isRequired,
   onLeaveFeedback: PropTypes.func.isRequired,
